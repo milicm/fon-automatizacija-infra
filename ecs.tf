@@ -7,6 +7,7 @@ resource "aws_ecr_repository" "repo" {
     encryption_type = "AES256"
   }
 
+  force_delete = true
 }
 
 
