@@ -1,7 +1,7 @@
 # fon-automatizacija Terraform Infrastructure
 
 This repository contains Terraform code to provision AWS infrastructure for the `fon-automatizacija` project.
-It sets up an ECS Fargate cluster, ECR repository, IAM roles, VPC, security groups, and CloudWatch logging.
+It sets up an ECS Fargate cluster, ECR repository, IAM roles, VPC, security groups and CloudWatch logging.
 
 ## Project Structure
 
