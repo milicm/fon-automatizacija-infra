@@ -38,7 +38,7 @@ jobs:
 
       - name: Ensure Terraform S3 bucket exists
         run: |
-            BUCKET_NAME="terraform-state-bucket-1cf48a7e-0cce-4afc-b29e-8584937eb9e9"
+            BUCKET_NAME="terraform-state-bucket-1cf48a7e-0cce-4afc-b29e-8584937eb9e7"
 
             aws s3api head-bucket --bucket "$BUCKET_NAME" 2>/dev/null || \
             aws s3api create-bucket \
